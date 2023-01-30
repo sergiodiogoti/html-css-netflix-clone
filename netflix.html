@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8" />
+            <title>Netflix</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="css/netflix.css"/>
+    </head>
+    <body>
+        <div id="menu">
+            <a>
+                <img class="img-logo" src="imagens/netflix-logo.png">
+            </a>
+            <ul class="menu-list">
+                <li>
+                  <a href="">Início</a>
+                </li>
+                <li>
+                  <a href="">Séries</a>
+                </li>
+                <li>
+                    <a href="">Filmes</a>
+                  </li>
+                <li>
+                    <a href="">Bombando</a>
+                </li>
+                <li>
+                    <a href="">Minha Lista</a>
+                </li>
+                <li>
+                    <a href="">Navegar por idiomas</a>
+                </li>
+             </ul>
+        </div>  
+        <section>
+            <div class="img-main">
+                <div class="container-main">
+                    <img src="imagens/dilema-das-redes-title.PNG" class="padding-left no-back" width="400px">
+                    <br>
+                    <div class="padding-left discription-movie">
+                        <span class="title-main fade">
+                            Especialistas em tecnologia e profissionais da área fazem um alerta: 
+                            as redes sociais podem ter um impacto devastador sobre a democracia e a humanidade.
+                        </span>
+                    </div>
+                     <div class="no-back padding-left">
+                        <button class="btn-whatch">
+                            <i class="fa fa-play no-back"></i>
+                            Assistir
+                        </button>
+                        <button class="btn-info">
+                            <i class="fa fa-info-circle no-back"></i>
+                            Mais informações
+                        </button>
+                    </div>
+                    <div class="title-keep-whatching">
+                        <span class="text-keep-whatching padding-left">
+                             Continuar Assistindo como Sérgio
+                        </span>
+                    </div>
+                    <!--filmes para continuar assistindo-->
+                    <div class="pnl-movie">
+                        <div class="prev padding-left">
+                            <a class="no-back" onclick="plusSlides(-1)">
+                                ❮
+                            </a>
+                        </div>
+                        <div class="pnl-movie-item padding-left">
+                            <div class="mySlides transation-slide no-back">
+                                <a class="pnl-movie-items">
+                                    <img src="imagens/cont-assist-1.jpg">
+                                    <img src="imagens/cont-assist-2.jpg">
+                                    <img src="imagens/cont-assist-3.jpg">
+                                    <img src="imagens/cont-assist-4.jpg">
+                                    <img src="imagens/cont-assist-5.jpg">
+                                    <img src="imagens/cont-assist-6.jpg">
+                                    <img src="imagens/cont-assist-7.jpg">
+                                    <img src="imagens/cont-assist-8.jpg">
+                                    <img src="imagens/cont-assist-9.jpg">
+                                    <img src="imagens/cont-assist-10.jpg">
+                                </a>
+                               
+                            </div>
+                        </div>
+                        <div class="next">
+                            <a class="no-back" onclick="plusSlides(1)">
+                                ❯
+                            </a>
+                        </div>
+                    </div>
+                     <!--tempo assistido-->
+                    <div class="pnl-movie" style="margin-top: -33px;height: 23px; background: transparent">
+                        <div class="pnl-movie-item padding-left">
+                            <div class="no-back pnl-movie-items time-watch">
+                                <div class="time-watch-plus" style="width: 8px;"></div>
+                                <div class="time-watch-minus" style="width: 92px;"></div>
+                            </div>
+                            <div class="no-back pnl-movie-items time-watch">
+                                <div class="time-watch-plus" style="width: 90px;"></div>
+                                <div class="time-watch-minus" style="width: 10px;"></div>
+                            </div>
+                            <div class="no-back pnl-movie-items time-watch">
+                                <div class="time-watch-plus" style="width: 80px;"></div>
+                                <div class="time-watch-minus" style="width: 60px;"></div>
+                            </div>
+                            <div class="no-back pnl-movie-items time-watch">
+                                <div class="time-watch-plus" style="width: 60px;"></div>
+                                <div class="time-watch-minus" style="width: 80px;"></div>
+                            </div>
+                            <div class="no-back pnl-movie-items time-watch">
+                                <div class="time-watch-plus" style="width: 40px;"></div>
+                                <div class="time-watch-minus" style="width: 70px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--filmes/series no top 10-->
+                    <div class="title-top-10">
+                        <span class="text-keep-whatching padding-left">
+                             Brasil: top 10 em séries hoje
+                        </span>
+                    </div>
+                    <div class="pnl-movie">
+                        <div class="prev padding-left">
+                            <a class="no-back" onclick="plusSlidesTop10(-1)">
+                                ❮
+                            </a>
+                        </div>
+                        <div class="pnl-movie-item padding-left">
+                            <div class="mySlides-top-10 fade no-back">
+                                <a>
+                                    <div class="div-top-10">
+                                        <div class="div-number">
+                                            1 
+                                        </div> 
+                                        <div class="div-image">
+                                            <img class="img-top-10" src="imagens/top-1.jpg">
+                                        </div> 
+                                        <div>
+                                        </div>
+                                    </div>
+
+                                    <div class="div-top-10">
+                                        <div class="div-number">
+                                            2 
+                                        </div> 
+                                        <div class="div-image">
+                                            <img class="img-top-10" src="imagens/top-2.jpg">
+                                        </div> 
+                                    </div>
+
+                                    <div class="div-top-10">
+                                        <div class="div-number">
+                                            3 
+                                        </div> 
+                                        <div class="div-image">
+                                            <img class="img-top-10" src="imagens/top-3.jpg">
+                                        </div> 
+                                    </div>
+
+                                    <div class="div-top-10">
+                                        <div class="div-number">
+                                            4 
+                                        </div> 
+                                        <div class="div-image">
+                                            <img class="img-top-10" src="imagens/top-4.jpg">
+                                        </div> 
+                                    </div>
+
+                                    <div class="div-top-10">
+                                        <div class="div-number">
+                                            5 
+                                        </div> 
+                                        <div class="div-image">
+                                            <img class="img-top-10" src="imagens/top-5.jpg">
+                                        </div> 
+                                    </div>
+
+                                    <div class="div-top-10">
+                                        <div class="div-number">
+                                            6 
+                                        </div> 
+                                        <div class="div-image">
+                                            <img class="img-top-10" src="imagens/top-6.JPEG">
+                                        </div> 
+                                        <div>
+                                        </div>
+                                    </div>
+
+                                    <div class="div-top-10">
+                                        <div class="div-number">
+                                            7 
+                                        </div> 
+                                        <div class="div-image">
+                                            <img class="img-top-10" src="imagens/top-7.jpg">
+                                        </div> 
+                                    </div>
+
+                                    <div class="div-top-10">
+                                        <div class="div-number">
+                                            8 
+                                        </div> 
+                                        <div class="div-image">
+                                            <img class="img-top-10" src="imagens/top-8.jpg">
+                                        </div> 
+                                    </div>
+
+                                    <div class="div-top-10">
+                                        <div class="div-number">
+                                            9 
+                                        </div> 
+                                        <div class="div-image">
+                                            <img class="img-top-10" src="imagens/top-9.jpg">
+                                        </div> 
+                                    </div>
+
+                                    <div class="div-top-10">
+                                        <div class="div-number">
+                                            10 
+                                        </div> 
+                                        <div class="div-image">
+                                            <img class="img-top-10" src="imagens/top-10.jpg">
+                                        </div> 
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="next">
+                            <a class="no-back" onclick="plusSlidesTop10(1)">
+                                ❯
+                            </a>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+               
+            </div>
+        </section>
+    </body>
+    <script src="js/netflix.js"></script>
+</html>

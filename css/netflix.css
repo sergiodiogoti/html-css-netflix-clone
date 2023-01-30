@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(20, 20, 20);
+
+}
+
+#menu {
+    width: 100%;
+    height: 54px;
+    background-color: rgb(20, 20, 20);
+    padding-left: 34px;
+    padding-top: 15px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    transition: background-color 0.3s ease-in-out;
+    border: none !important;
+}
+
+#menu {
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 89px -7px 0 0 #000000;
+    box-shadow: 89px -7px 0px 0 #000000;
+    border: none !important;
+}
+
+.mudaCor {
+
+    background-color: rgb(20, 20, 20) !important;
+}
+
+
+#menu a {
+    color: #fff;
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0.1vw;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+    text-decoration: none;
+    background: transparent;
+    color: rgb(196, 196, 196);
+}
+
+#menu a:hover {
+    color: rgb(170, 169, 169);
+}
+
+ul {
+    color: white;
+    list-style: none;
+    padding-top: 6px;
+    margin-left: 28px;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: normal;
+    background: transparent;
+}
+
+li {
+    padding: 6px;
+    margin-left: 9px;
+    background: transparent;
+}
+
+ul>li {
+    display: inline-block;
+    background: transparent;
+    font-size: 14px;
+}
+
+.img-logo {
+    padding-left: 21px;
+    width: 90px;
+    height: 25px;
+    margin-top: 8px;
+    background: transparent;
+}
+
+
+.img-main {
+    background-image: url(../imagens/dilema-das-redes.png);
+    height: 730px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 50px #000000;
+    background-color: rgb(20, 20, 20);
+}
+
+.container-main {
+    background: transparent;
+    padding-top: 180px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+}
+
+a:hover {
+    color: rgb(196, 196, 196);
+}
+
+.title-main {
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0.1vw;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+    background: transparent;
+
+}
+
+.btn-whatch {
+    background-color: #FFF;
+    color: #000000;
+    border: #FFF;
+    width: 150px;
+}
+
+.btn-info {
+    background-color: rgb(168, 158, 158);
+    color: #FFF;
+    border: rgb(168, 158, 158);
+    width: 220px;
+    margin-left: 5px;
+    /*opacity: 0.9;*/
+
+}
+
+.padding-left {
+    padding-left: 50px;
+}
+
+.btn-whatch,
+.btn-info {
+    padding: 11px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pnl-movie {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    background: transparent;
+    flex-wrap: nowrap;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+}
+
+
+.pnl-movie a {
+    margin-left: 3px;
+    border-radius: 5px;
+    height: 150px;
+}
+
+.pnl-movie .prev {
+    width: 40px;
+    height: 150px;
+}
+
+.pnl-movie .next {
+    width: 40px;
+    height: 150px;
+}
+
+.pnl-movie img {
+    width: 245px;
+    height: 140px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.pnl-movie-item {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.pnl-movie-items {
+    margin-left: 3px;
+    border-radius: 5px;
+    width: 245px;
+    height: 140px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.title-keep-whatching {
+    margin-top: 135px;
+    background: transparent;
+    color: #FFF;
+    -webkit-text-stroke: 0px #FFF;
+    padding: 3px;
+    line-height: 3px;
+}
+
+
+.title-top-10 {
+    background: transparent;
+    color: #FFF;
+    -webkit-text-stroke: 0px #FFF;
+    padding: 3px;
+    line-height: 30px;
+    background-color: rgb(20, 20, 20);
+}
+
+.text-keep-whatching {
+    font-weight: bold;
+    font-size: 1.1em;
+    background: transparent;
+}
+
+
+.next {
+    cursor: pointer;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background: transparent;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 36px;
+}
+
+.prev {
+    border-radius: 3px 0 0 3px;
+    cursor: pointer;
+    background: transparent;
+    font-size: 50px;
+    float: left;
+    transition: 0.6s ease;
+    user-select: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 36px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2.8s;
+
+}
+
+.transation-slide {
+    --selected-item: 0;
+    --total-items: 4;
+    left: calc(var(--selected-item) * -100%);
+    width: calc(var(--total-items) * 100%);
+    transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next {
+        font-size: 18px
+    }
+}
+
+.discription-movie {
+    margin-bottom: 10px;
+    width: 450px;
+    background: transparent;
+}
+
+.no-back {
+    background: transparent;
+}
+
+.pnl-movie-item p {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(168, 158, 158);
+    font-size: 13em;
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.border-number:hover {
+    color: #000;
+}
+
+.div-number {
+    background: transparent;
+    width: 150px;
+    position: relative;
+    margin-top: -42px;
+    margin-left: 12px;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: rgb(168, 158, 158);
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.div-image {
+    background: transparent;
+    width: 150px;
+    position: relative;
+    margin-top: -21px;
+    margin-left: -72px;
+}
+
+.img-top-10 {
+    width: 112px !important;
+    height: 170px !important;
+    border-radius: 0px 4px 4px 0px !important;
+}
+
+.div-top-10 {
+    font-size: 13em;
+    width: 245px;
+    text-align: center;
+    display: inline-flex;
+}
+
+.time-watch {
+    display: inline-flex;
+}
+
+.time-watch-minus {
+    background-color: rgb(168, 158, 158);
+}
+
+.time-watch-plus {
+    background-color: red;
+}
+
+.time-watch-minus,
+.time-watch-plus {
+    height: 3px;
+    border-radius: 10px;
+}
+
+
+
+@media (min-width: 991px) {
+    .menu-list{
+      display: block!important;
+    }
+    .menu-mobile {
+    display: none!important;
+  }
+}
